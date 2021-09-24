@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap");
+
+* body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+body {
+  background-color: rgb(184, 184, 184);
+}
+
+main {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 33% 1fr;
+  grid-gap: 1rem;
+}
+.left {
+  background-color: rgb(233, 213, 213);
+}
+.left-image img {
+  width: 100%;
+  height: 50%;
+}
+
+.left-image {
+  position: relative;
+}
+.left-image h1 {
+  position: absolute;
+  position: relative;
+  bottom: 0rem;
+  margin: 0%;
+  color: rgb(189, 118, 118);
+  font-family: "Birthstone", cursive;
+}
+ul {
+  list-style: none;
+}
+.skills,
+.languages {
+  padding: 1rem;
+  line-height: 2rem;
+  color: rgb(0, 0, 0);
+}
+#personal {
+  padding: 1rem;
+  line-height: 2rem;
+  color: rgb(95, 61, 46);
+}
+.experience {
+  bottom: 0%;
+}
+.fa-solid {
+  color: rgb(11, 87, 43);
+}
+#li {
+  color: rgb(9, 51, 241);
+}
+#li-text {
+  color: rgb(112, 4, 71);
+}
+#tidigareanställningar {
+  color: rgb(17, 96, 110);
+}
+.right {
+  background-color: rgb(201, 190, 190);
+  padding: 1rem;
+}
+#sk-sk {
+  padding: 0rem;
+}
+#education {
+  color: rgb(112, 4, 71);
+}
+#utbildning {
+  color: rgb(25, 99, 112);
+}
+.nav {
+  background-color: rgb(69, 109, 94);
+}
+#tab {
+  color: rgb(1, 14, 9);
+}
+
+.nav-link {
+  background-color: blue;
+}
+#a {
+  text-decoration: none;
+}
+#maindiv {
+  margin: 1rem;
+  box-sizing: border-box;
+  display: grid;
+  position: relative;
+  background-color: rgb(209, 209, 209);
+}
+#tab {
+  color: rgb(228 239 235);
+  background-color: rgb(69, 109, 94);
+  margin-bottom: 0rem;
+  border: 0rem;
+}
+.fas {
+  color: rgb(146, 49, 62);
+}
+#mainbody {
+  background-color: rgb(198, 212, 172);
+}
